@@ -1,0 +1,6 @@
+
+# Build core project (one reference sequence only for each genus)
+run file glue/build/buildCoreProject.glue
+
+# Build genus-level extension - incorporate a broader range of species
+run file glue/build/buildGenusLevelProjects.glue
